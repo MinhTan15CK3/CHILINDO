@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>WEBSITE ĐẤU GIÁ</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<style>
-		<!-- .body{
-			margin: 10px;
-			font-family: Arial;
-			font-size: 20;
-			width: 1330px;
-			height: 100%;
-			background-color: pink;
-		} -->
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title>Trang Chủ Admin</title>
+	<style>
+		body{
+			-webkit-background-size:cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+			background-size:cover;
+		}
 		#customers {
 			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 			border-collapse: collapse;
@@ -40,9 +38,11 @@
 			color: white;
 		}
 		.navbar {
-		  overflow: hidden;
-		  background-color: #333;
-		  font-family: Arial;
+	  		overflow: hidden;
+	  		background-color: #A7C3CC;
+	  		font-family: Arial;
+			height: 50px;
+			line-height: 50px;
 		}
 
 		.dangky{
@@ -51,11 +51,6 @@
 			margin-right:200px;
 		}
 		.navbar a {
-		  float: left;
-		  font-size: 16px;
-		  color: white;
-		  text-align: center;
-		  padding: 14px 16px;
 		  text-decoration: none;
 		}
 		
@@ -65,7 +60,7 @@
 		
 		.dow{
 			overflow: hidden;
-			background-color: #333;
+			background-color: #A7C3CC;
 			font-family: Arial;
 			
 		}
@@ -79,253 +74,244 @@
 		.bottom{
 			margin-top: 450px;
 		}
-		</style>
-	</head>
-	<body>
-<div class="container">
-	<div class="navbar">
-		<a href="Product.html">Trang Chủ</a>
-		<a href="GioHang.html">GioHang</a>
-		<a href="Contact.html">Thông Tin</a>
-		<a href="Product.html">Sản Phẩm</a>
+	</style>
+</head>
+<body background="css/nen_cdn.jpg">
+	<div class="container">
+		<div class="navbar">
+			Admin | <span> <a href="DangNhap.html"> Đăng Xuất </a> </span>
+		</div>
 		
-	</div>
-	
-	<div class="w3-container">
-	  
-	
-
-	  <div class="w3-bar w3-black">
-		<button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'London')">Quản Lý Sản Phẩm</button>
-		<button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')">QLSP Đã Đấu Gía</button>
-		<button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">Thêm Sản Phẩm</button>
-		
-	  </div>
-	  
-	  <div id="London" class="w3-container w3-border city">
-		<h2>Quản Lý Sản Phẩm</h2>
-		<table id="customers">
-		  <tr>
-			<th>Mã Sản Phẩm</th>
-			<th>Tên Sản Phảm</th>
-			<th>Hình Anhr</th>
-			<th>Thời Gian</th>
-			<th>Mô Tả</th>
-		  </tr>
-		  <tr>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>10:06</td>
-			<td>10000000000000</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>Berglunds snabbköp</td>
-			<td>Christina Berglund</td>
-			<td>Sweden</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>Centro comercial Moctezuma</td>
-			<td>Francisco Chang</td>
-			<td>Mexico</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>Ernst Handel</td>
-			<td>Roland Mendel</td>
-			<td>Austria</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>Island Trading</td>
-			<td>Helen Bennett</td>
-			<td>UK</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>Königlich Essen</td>
-			<td>Philip Cramer</td>
-			<td>Germany</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>Laughing Bacchus Winecellars</td>
-			<td>Yoshi Tannamuri</td>
-			<td>Canada</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>Magazzini Alimentari Riuniti</td>
-			<td>Giovanni Rovelli</td>
-			<td>Italy</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>North/South</td>
-			<td>Simon Crowther</td>
-			<td>UK</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>Paris spécialités</td>
-			<td>Marie Bertrand</td>
-			<td>France</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		</table>
-		<button class="w3-bar-item w3-button tablink">Lưu</button>
-		<button class="w3-bar-item w3-button tablink">Thoát</button>
-	  </div>
-
-	  <div id="Paris" class="w3-container w3-border city" style="display:none">
-		<h2>QLSP Đã Đấu Gía</h2>
-		<table id="customers">
-		<tr>
-			<th>Tình Trạng</th>
-			<th>Mã Sản Phẩm</th>
-			<th>Tên Sản Phảm</th>
-			<th>Hình Anhr</th>
-			<th>Thời Gian</th>
-			<th>Mô Tả</th>
-		  </tr>
-		 <tr>
-			<td>true</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>12:06</td>
-			<td>10333300000000000</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
+		<div class="w3-container">
+			<div class="w3-bar w3-black">
+				<button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'London')">Quản Lý Sản Phẩm</button>
+				<button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')">QLSP Đã Đấu Gía</button>
+				<button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">Thêm Sản Phẩm</button>
 			
-		  </tr>
-		  
-		  <tr>
-			<td>true</td>
-			<td>Alfreds Futterkiste</td>
-			<td>Maria Anders</td>
-			<td>Germany</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-			
-		  </tr>
-		  <tr>
-			<td>true</td>
-			<td>Berglunds snabbköp</td>
-			<td>Christina Berglund</td>
-			<td>Sweden</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-			
-		  </tr>
-		  <tr>
-			<td>true</td>
-			<td>Centro comercial Moctezuma</td>
-			<td>Francisco Chang</td>
-			<td>Mexico</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>true</td>
-			<td>Ernst Handel</td>
-			<td>Roland Mendel</td>
-			<td>Austria</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>true</td>
-			<td>Island Trading</td>
-			<td>Helen Bennett</td>
-			<td>UK</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>true</td>
-			<td>Königlich Essen</td>
-			<td>Philip Cramer</td>
-			<td>Germany</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>true</td>
-			<td>Laughing Bacchus Winecellars</td>
-			<td>Yoshi Tannamuri</td>
-			<td>Canada</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>true</td>
-			<td>Magazzini Alimentari Riuniti</td>
-			<td>Giovanni Rovelli</td>
-			<td>Italy</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>true</td>
-			<td>North/South</td>
-			<td>Simon Crowther</td>
-			<td>UK</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		  <tr>
-			<td>true</td>
-			<td>Paris spécialités</td>
-			<td>Marie Bertrand</td>
-			<td>France</td>
-			<td>HUỲNH QUÝ THIỆN</td>
-			<td>19:06</td>
-		  </tr>
-		</table>
-		<button class="w3-bar-item w3-button tablink">Sửa</button>
-		<button class="w3-bar-item w3-button tablink">Thoát</button>
-	  </div>
+			</div>
 
-		<div id="Tokyo" class="w3-container w3-border city" style="display:none">
-			<form class="dangky">
-				<div class="message">
-						<h1>Thêm Sản Phẩm</h1>
+		<div id="London" class="w3-container w3-border city">
+			<h2>Quản Lý Sản Phẩm</h2>
+			<table id="customers">
+			  <tr>
+				<<th>Mã Sản Phẩm</th>
+				<th>Tên Sản Phảm</th>
+				<th>Hình Anhr</th>
+				<th>Thời Gian</th>
+				<th>Mô Tả</th>
+			  </tr>
+			  <tr>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>10:06</td>
+				<td>10000000000000</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>Berglunds snabbköp</td>
+				<td>Christina Berglund</td>
+				<td>Sweden</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>Centro comercial Moctezuma</td>
+				<td>Francisco Chang</td>
+				<td>Mexico</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>Ernst Handel</td>
+				<td>Roland Mendel</td>
+				<td>Austria</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>Island Trading</td>
+				<td>Helen Bennett</td>
+				<td>UK</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>Königlich Essen</td>
+				<td>Philip Cramer</td>
+				<td>Germany</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>Laughing Bacchus Winecellars</td>
+				<td>Yoshi Tannamuri</td>
+				<td>Canada</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>Magazzini Alimentari Riuniti</td>
+				<td>Giovanni Rovelli</td>
+				<td>Italy</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>North/South</td>
+				<td>Simon Crowther</td>
+				<td>UK</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>Paris spécialités</td>
+				<td>Marie Bertrand</td>
+				<td>France</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			</table>
+			<button class="w3-bar-item w3-button tablink">Lưu</button>
+			<button class="w3-bar-item w3-button tablink">Thoát</button>
+		  </div>
+
+		  <div id="Paris" class="w3-container w3-border city" style="display:none">
+			<h2>QLSP Đã Đấu Gía</h2>
+			<table id="customers">
+			<tr>
+				<th>Tình Trạng</th>
+				<th>Mã Sản Phẩm</th>
+				<th>Tên Sản Phảm</th>
+				<th>Hình Anhr</th>
+				<th>Thời Gian</th>
+				<th>Mô Tả</th>
+			  </tr>
+			 <tr>
+				<td>true</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>12:06</td>
+				<td>10333300000000000</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+				
+			  </tr>
+			  
+			  <tr>
+				<td>true</td>
+				<td>Alfreds Futterkiste</td>
+				<td>Maria Anders</td>
+				<td>Germany</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+				
+			  </tr>
+			  <tr>
+				<td>true</td>
+				<td>Berglunds snabbköp</td>
+				<td>Christina Berglund</td>
+				<td>Sweden</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+				
+			  </tr>
+			  <tr>
+				<td>true</td>
+				<td>Centro comercial Moctezuma</td>
+				<td>Francisco Chang</td>
+				<td>Mexico</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>true</td>
+				<td>Ernst Handel</td>
+				<td>Roland Mendel</td>
+				<td>Austria</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>true</td>
+				<td>Island Trading</td>
+				<td>Helen Bennett</td>
+				<td>UK</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>true</td>
+				<td>Königlich Essen</td>
+				<td>Philip Cramer</td>
+				<td>Germany</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>true</td>
+				<td>Laughing Bacchus Winecellars</td>
+				<td>Yoshi Tannamuri</td>
+				<td>Canada</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>true</td>
+				<td>Magazzini Alimentari Riuniti</td>
+				<td>Giovanni Rovelli</td>
+				<td>Italy</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>true</td>
+				<td>North/South</td>
+				<td>Simon Crowther</td>
+				<td>UK</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			  <tr>
+				<td>true</td>
+				<td>Paris spécialités</td>
+				<td>Marie Bertrand</td>
+				<td>France</td>
+				<td>HUỲNH QUÝ THIỆN</td>
+				<td>19:06</td>
+			  </tr>
+			</table>
+			<button class="w3-bar-item w3-button tablink">Sửa</button>
+			<button class="w3-bar-item w3-button tablink">Thoát</button>
+		  </div>
+
+			<div id="Tokyo" class="w3-container w3-border city" style="display:none">
+				<form class="dangky">
+					<div class="message">
+							<h1>Thêm Sản Phẩm</h1>
+						</div>
+					<div class="container">
+					<form action="/action_page.php">
+					<strong>Mã Sản Phẩm:</strong>  <input type="text" name="FirstName" value="" style="margin-bottom: 55px;margin-left: 20px"><br>
+					<strong>Tên Sản Phẩm:</strong> <input type="password" name="LastName" value="" style="margin-bottom: 55px; margin-left: 15px"><br>
+					<strong>Hình Ảnh:</strong>     <input type="text" name="FirstName" value="" style="margin-bottom: 55px;margin-left: 52px;"><br>
+					<strong>Thời Gian:</strong>    <input type="text" name="LastName" value="" style="margin-bottom: 55px;margin-left: 48px"><br>
+					<strong>Mô Tả:</strong> <textarea style="margin-left: 75px" length="500"></textarea>  <br>      
+					<input type="submit" value="Add" style="margin-bottom: 15px;font-size: 40px;margin-left: 88px;">
+					</form>
 					</div>
-				<div class="container">
-				<form action="/action_page.php">
-				<strong>Mã Sản Phẩm:</strong>  <input type="text" name="FirstName" value="" style="margin-bottom: 55px;margin-left: 20px"><br>
-				<strong>Tên Sản Phẩm:</strong> <input type="password" name="LastName" value="" style="margin-bottom: 55px; margin-left: 15px"><br>
-				<strong>Hình Ảnh:</strong>     <input type="text" name="FirstName" value="" style="margin-bottom: 55px;margin-left: 52px;"><br>
-				<strong>Thời Gian:</strong>    <input type="text" name="LastName" value="" style="margin-bottom: 55px;margin-left: 48px"><br>
-				<strong>Mô Tả:</strong> <textarea style="margin-left: 75px" length="500"></textarea>  <br>      
-				<input type="submit" value="Add" style="margin-bottom: 15px;font-size: 40px;margin-left: 88px;">
 				</form>
-				</div>
-			</form>
-		</div>
+			</div>
 
-	  
-	  
-	</div>
-</div>	
-	<footer class="bottom">
-		<div class="dow">
-			<h1>HUỲNH QUÝ THIỆN</h1>
-			<h1>TRẦN MINH TÂN</h1>
-			<h1>NGUYỄN PHÙNG KIM VÂN</h1>
-		
+		  
+		  
 		</div>
-	
-	</footer>
+		</div>	
+		<footer class="bottom">
+			<div class="dow">
+				<h1>HUỲNH QUÝ THIỆN</h1>
+				<h1>TRẦN MINH TÂN</h1>
+				<h1>NGUYỄN PHÙNG KIM VÂN</h1>
+			</div>
+		</footer>
 	<script>
 		function openCity(evt, cityName) {
 		  var i, x, tablinks;
@@ -341,4 +327,5 @@
 		  evt.currentTarget.className += " w3-red";
 		}
 	</script>
+</body>
 </html>

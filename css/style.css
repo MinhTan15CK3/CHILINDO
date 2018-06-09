@@ -103,6 +103,24 @@ body {
 	float: left;
 }
 
+#footer {
+	height: 50px;
+	background: blue;
+	background-color: #323332;
+	color: white;
+	clear: both;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*
 .btt {
 	height: 30px;
 	background:#F5F520;
@@ -117,7 +135,7 @@ body {
 }
 .nd ul{               
 	display: flex;
-	justify-content: center;/* nội dung căn giữa trang*/
+	justify-content: center;/* nội dung căn giữa trang
 	
 }
 .nd ul li {
@@ -143,25 +161,16 @@ body {
 	margin-right: 10px;
 	padding-bottom: 5px;
 	padding: 5px;
-}
-#footer {
-	height: 120px;
-	/*background: #D5DADB;*/
-	background-color: #323332;
-	color: white;
-	clear: both;
-	text-align: center;
-}
-#footer h3{
-	padding-top: 10px;
-}
-#cmt {
+}*/
+
+
+/*#cmt {
 	float: left;
 	width: 35%;
 	height: 70px;
 	border-right: 2px solid pink;
 		padding: 20px 0 0 0;
-}
+}*/
 /*#cmt img{
 	width: 20px;
 	height: auto;
@@ -170,10 +179,10 @@ body {
 	padding-bottom: 0;
 	padding-left: 50px;
 }*/
-#cmt-r{
+/*#cmt-r{
 	float: right;
 	padding: 20px 150px 0 0;
-}
+}*/
 /*Trang Chủ_CĐN, Đăng Nhập, Đăng Ký*/
 #container{
 	padding: 10px;

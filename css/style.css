@@ -1,0 +1,208 @@
+* {
+    margin: auto;
+    padding: auto;
+    position: relative;  
+}
+html {
+	background: url('nen_cdn.jpg') no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+body {
+	font-family: Arial;
+	/*font-size: 20;*/
+	width: 100%;
+	height: 100%;
+	/*font-size: 14px;*/
+}
+/*Trang chủ đã đăng nhập*/
+#header {
+	height: 70px;
+	margin: auto;
+	background-color: #323332;
+	border-bottom:  2px solid #030303;
+}
+#brand {
+    width: 233px;
+    height: 70px;
+    float: left;
+}
+#cart {
+	float: right;
+	width: 150px;
+	height: 50px;
+	background-color: #323332;
+	margin: 10px 0 10px 0;
+	line-height: 50px;
+}
+#cart img {
+	float: left;
+	width: 50px;
+	color: white;	
+}
+#cart a {
+	float: left;
+	width: auto;
+	color: white;
+	text-decoration: none;
+}
+#heard-input {
+	width: 200px;
+	height: 50px;
+	float: right;
+	margin: 10px 0 10px 20px;
+	line-height: 50px;
+	background-color: #323332;
+	text-align: center;
+}
+#heard-input a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#heard-input a:hover {
+	background: #222224;
+}
+
+#menu {
+	height: 50px;
+	background-color: #323332;
+	padding-left: 17%;
+}
+#menu ul li {
+	list-style-type: none;
+	display: inline-table;
+	width: 210px;
+	text-align: center;
+	line-height: 50px;
+	position: relative;
+	border-bottom: 1px solid #909696;
+}
+#menu ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#menu ul li a:hover {
+	background: white;
+	color:black;
+}
+#menu ul li > .sub-menu {
+	display: none;
+	position: absolute;
+	background: black;
+}
+#menu ul li:hover .sub-menu { /* rê chuột */
+	display: block;
+}
+#content {
+	width: 100%;
+	background-color: white;
+	float: left;
+}
+
+.btt {
+	height: 30px;
+	background:#F5F520;
+}
+.btt a {
+	text-decoration: none;
+	margin-left: 7px;
+}
+.nd {
+	margin: 5px 10px 5px 10px;
+	padding-bottom: 10px;
+}
+.nd ul{               
+	display: flex;
+	justify-content: center;/* nội dung căn giữa trang*/
+	
+}
+.nd ul li {
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	line-height: 20px;
+}
+.nd h3 {
+	margin 5px;
+	margin-left: 16%;
+}
+.nd ul a {
+	text-decoration: none;
+	color: #1417DE;
+	margin-right: 5px;
+	padding-right: 5px;
+}
+
+.nd img {
+	width: 200px;
+	height: 200px;
+	margin-right: 10px;
+	padding-bottom: 5px;
+	padding: 5px;
+}
+#footer {
+	height: 120px;
+	/*background: #D5DADB;*/
+	background-color: #323332;
+	color: white;
+	clear: both;
+	text-align: center;
+}
+#footer h3{
+	padding-top: 10px;
+}
+#cmt {
+	float: left;
+	width: 35%;
+	height: 70px;
+	border-right: 2px solid pink;
+		padding: 20px 0 0 0;
+}
+/*#cmt img{
+	width: 20px;
+	height: auto;
+	float: left;
+	margin: auto;
+	padding-bottom: 0;
+	padding-left: 50px;
+}*/
+#cmt-r{
+	float: right;
+	padding: 20px 150px 0 0;
+}
+/*Trang Chủ_CĐN, Đăng Nhập, Đăng Ký*/
+#container{
+	padding: 10px;
+}
+#login{
+			margin: 50px 0px 0px 450px;
+		}
+a { 
+	text-decoration: none;
+	color: #320AFC;
+}
+h1 {
+	color: #320AFC;
+	padding: 10px 10px 10px 10px;
+}
+/*css button & input*/
+.btn {
+	margin: 0px 10px 0px 10px;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	color: #320AFC;
+    font-size: 20;
+}
+.frm {
+	padding: 10px 40px 10px 40px;
+}
+.frm-control {
+	padding: 10px 20px 10px 20px;
+	border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 70%;
+}

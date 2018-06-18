@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chi Tiết Sản Phẩm</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+		<style>
+			html {
+				background: url('nen.jpg') no-repeat center center fixed;
+				-webkit-background-size:cover;
+				-moz-background-size:cover;
+				-o-background-size:cover;
+				background-size:cover;
+			}
+			#header {
+				height: 70px;
+				margin: auto;
+				background-color: #323332;
+				border-bottom:  1px solid #030303;
+			}
+			#brand {
+			    width: 233px;
+			    height: 70px;
+			    float: left;
+			}
+
+			#cart {
+				float: right;
+				width: 150px;
+				height: 50px;
+				background-color: #323332;
+				margin: 10px 0 10px 0;
+				line-height: 50px;
+			}
+			#cart img {
+				float: left;
+				width: 50px;
+				color: white;	
+			}
+			#cart a {
+				float: left;
+				width: auto;
+				color: white;
+				text-decoration: none;
+			}
+			#cart span {
+				float: left;
+				width: auto;
+				color: white;	
+			}
+			#heard-input {
+				width: 200px;
+				height: 50px;
+				float: right;
+				margin: 10px 0 10px 20px;
+				line-height: 50px;
+				background-color: #323332;
+				text-align: center;
+			}
+			#heard-input a {
+				text-decoration: none;
+				color: white;
+				display: block;
+			}
+			#heard-input a:hover {
+				background: #222224;
+			}
+
+			#menu {
+				height: 50px;
+				background-color: #323332;
+				padding-left: 17%;
+			}
+			#menu ul li {
+				list-style-type: none;
+				display: inline-table;
+				width: 210px;
+				text-align: center;
+				line-height: 50px;
+				position: relative;
+				border-bottom: 2px solid #909696;
+			}
+			#menu ul li a {
+				text-decoration: none;
+				color: white;
+				display: block;
+			}
+			#menu ul li a:hover {
+				background: white;
+				color:black;
+			}
+			#menu ul li > .sub-menu {
+				display: none;
+				position: absolute;
+				background: black;
+			}
+			#menu ul li:hover .sub-menu { /* rê chuột */
+				display: block;
+			}
+			.login{
+				overflow: hidden;
+				background-color: #333333b3;
+				font-family: Arial;
+				display:inline-block;
+				margin-left: 450px;
+				padding: 62px;
+			}
+			.dow{
+				overflow: hidden;
+				background-color: #333;
+				font-family: Arial;
+				
+			}
+			.dow h1{
+				color: white;
+				text-align: center;
+			}
+			
+			.w3-container{
+				text-align:left;
+				inline-flex;
+			}
+
+			#footer {
+				height: 120px;
+				background: #D5DADB;
+				color: red;
+				clear: both;
+				text-align: center;
+			}
+			#cmt {
+				float: left;
+				width: 35%;
+				height: 80px;
+				border-right: 2px solid pink;
+					padding: 20px 0 0 0;
+			}
+			#cmt img{
+				width: 20px;
+				height: auto;
+				float: left;
+				margin: auto;
+				padding-bottom: 0;
+				padding-left: 50px;
+			}
+			#cmt-r{
+				float: right;
+				padding: 20px 150px 0 0;
+			}
+
+		</style>
+	</head>
+	<body>
+	<div id="header">
+		<div id="brand">
+			<img src="images/logo.png" width="233px" height="70px" alt="Logo" usemap="#planetmap">
+			<map name="planetmap">
+  				<area shape="rect" coords="20,10,200,60" alt="Logo" href="TrangChu.html">
+  			</map>
+		</div>
+		<div id="cart">
+			<img src="images/cart.png" width="50px" height="50px" alt="gioHang" usemap="#cartMap">
+			<span><a href="GioHang.html">Giỏ Hàng</a></span>
+			<map name="cartMap">
+  				<area shape="rect" coords="0,5,100,50" alt="gioHang" href="GioHang.html">
+  			</map>
+		</div>
+		<div id="heard-input">
+			<a href="dn.html" target="_blank">Đăng Nhập | Đăng Kí</a>
+		</div>
+	</div>
+	<div id="menu">
+		<ul>
+    		<li>
+    			<a href="TrangChu.html">TRANG CHỦ</a>
+    		</li>
+    		<li>
+    			<a href="#">CÔNG NGHỆ</a>
+    		</li>
+    		<li>
+    			<a href="#">THỜI TRANG</a>
+    		</li>
+    		<li>
+    			<a href="#">GIA ĐÌNH</a>
+    		</li>
+  		</ul>
+	</div>
+		
+	
+		<div class="w3-container">
+			<table class="table" style="border: 1px;">
+		    <thead class="thead-light">
+		      <tr>
+		        <th><h2 style="color:blue;text-align: center;">Chảo chống dính</h2></th>
+		      </tr>
+		    </thead>
+		      <tr>
+		        <td style="text-align: center;">
+			        <div class="w3-card-4 w3-dark-grey" style="width:50%">
+						<div class="w3-container w3-center">
+							<h3>Friend Request</h3>
+							<img src="images/h2.jpg" alt="Avatar" style="width:80%">
+							<h5>John Doe</h5>
+							<div class="w3-section">
+						        <button class="w3-button w3-green">ĐẤU GIÁ</button>
+						        <button class="w3-button w3-red" ><a href="Product.html">TRỂ VỀ</a></button>
+							</div>
+						</div>
+					</div>
+		</div>
+	          
+	        </td>
+	      </tr>
+	  </table>
+
+
+
+
+		
+		
+
+		
+		
+		<div class="w3-container">
+				<div class="w3-card-4" style="width:100%;">
+					<header class="w3-container w3-blue">
+					<h1>Thông tin sản phẩm</h1>
+					</header>
+
+					<div class="w3-container">
+						<p>Tên: Sản phẩm "no name" <br>Xuất sứ: Việt Nam <br> - Chảo đa năng chuyên dành để chiên rán,v..v...
+						<br>- Được làm bằng inox chất lượng cao, tráng bằng lớp phủ không dính, bền đẹp
+						<br>- Thiết kế hiện đại, dễ sử dụng. Có thể sử dụng với bếp điện từ.
+						<br>- Sản phẩm không dễ bị cháy, lòng chảo có thiết kế khoa học, giữ nhiệt và dinh dưỡng của thực phẩm.
+						<br>- Lòng chảo có dáng cong, dễ dàng sử dụng và vệ sinh.
+						<br>- Kích thước: 12 "</p>
+					</div>
+			  </div>
+		</div>
+	</body>
+	<div id="footer">
+		<H3>THÔNG TIN VÀ LIÊN HỆ</H3>
+		<div id="cmt">
+			<a href="https://www.facebook.com/nguyenphungkimvan" "email me">Kim Vân</a>
+		</div>
+		<div id="cmt">
+			<a href="https://www.facebook.com/tan.tran.7311352" "email me">Minh Tân</a>
+		</div>
+		<div id="cmt-r">
+			<a href="https://www.facebook.com/thien.huynh.1048" "email me">Quý Thiện</a>
+		</div>
+	</div>
+</html>

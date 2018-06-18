@@ -1,0 +1,22 @@
+{
+  "name": "chilindo",
+  "version": "1.0.0",
+  "description": "1560667-1461603-1460047",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinhTan15CK3/CHILINDO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinhTan15CK3/CHILINDO/issues"
+  },
+  "homepage": "https://github.com/MinhTan15CK3/CHILINDO#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

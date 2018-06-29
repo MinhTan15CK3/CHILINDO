@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đấu Giá Của Tôi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+		html {
+			background: url('nen.jpg') no-repeat center center fixed;
+			-webkit-background-size:cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+			background-size:cover;
+		}
+		.navbar {
+		  overflow: hidden;
+		  background-color: #333;
+		  font-family: Arial;
+		}
+
+		
+		.navbar a {
+		  float: left;
+		  font-size: 16px;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+		
+		.message{
+			text-align: center;
+		}
+		
+		.dow{
+			overflow: hidden;
+			background-color: #333;
+			font-family: Arial;
+			
+		}
+		.dow h5{
+			color: white;
+			text-align: center;
+		}
+		.container{
+			text-align:center;
+		}
+		.bottom{
+			margin-top: 450px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<a href="TrangChuDDN.html">Trang Chủ</a>
+			<a href="GioHang.html">Giỏ Hàng</a><div class="navbar">
+			<a href="DauGiaCuaToi.html">Đấu Giá Của Tôi</a>
+		
+		</div>
+	</div>
+		
+		<div class="w3-container">
+			<div class="w3-bar w3-black">
+				<button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'London')">ĐANG ĐẤU GIÁ</button>
+				<button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')">ĐẤU GIÁ THÀNH CÔNG</button>
+				<button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">ĐẤU GIÁ THẤT BẠI</button>
+			</div>
+		  
+		  	<div id="London" class="w3-container w3-border city">
+				<h2>ĐANG ĐẤU GIÁ</h2>
+				<table class="table table-hover">
+				    <thead>
+						<tr>
+							<th>Tên Sản Phảm</th>
+							<th>Thời Gian Đấu Gía</th>
+							<th>Gía Gần Nhất</th>
+					  	</tr>
+				    </thead>
+				    <tbody>
+				    	<tr>
+				    		<td>John</td>
+				    		<td>Doe</td>
+				    		<td>22:19:02</td>
+				    	</tr>
+				      	<tr>
+				        	<td>Mary</td>
+				        	<td>Moe</td>
+				        	<td>23:00:29</td>
+				      	</tr>
+				      	<tr>
+				        	<td>July</td>
+				        	<td>Dooley</td>
+				        	<td>10:30:00</td>
+				      	</tr>
+				    </tbody>
+				</table>
+		  	</div>
+
+			<div id="Paris" class="w3-container w3-border city" style="display:none">
+				<h2>ĐẤU GIÁ THÀNH CÔNG</h2>
+				<table class="table table-hover">
+				    <thead>
+				    	<tr>
+							<th>Tên Sản Phảm</th>
+							<th>Thời Gian Đấu Gía</th>
+							<th>Gía Gần Nhất</th>
+					  	</tr>
+				    </thead>
+				    <tbody>
+				    	<tr>
+				    		<td>John</td>
+				    		<td>Doe</td>
+				    		<td>11:00:10</td>
+				    	</tr>
+				      	<tr>
+				        	<td>Mary</td>
+				        	<td>Moe</td>
+				        	<td>09:56:01</td>
+				      	</tr>
+				      	<tr>
+				        	<td>Kem</td>
+				        	<td>Kim Vân</td>
+				        	<td>00:00:00</td>
+				      	</tr>
+				    </tbody>
+				</table>
+			 </div>
+
+			<div id="Tokyo" class="w3-container w3-border city" style="display:none">
+				<h2>ĐẤU GIÁ THẤT BẠI</h2>
+				<table class="table table-hover">
+				    <thead>
+						<tr>
+							<th>Tên Sản Phảm</th>
+							<th>Thời Gian Đấu Gía</th>
+							<th>Gía Gần Nhất</th>
+					  	</tr>
+				    </thead>
+				    <tbody>
+				    	<tr>
+				    		<td>John</td>
+				    		<td>Doe</td>
+				    		<td>13:23:13</td>
+				    	</tr>
+				      	<tr>
+				        	<td>Mary</td>
+				        	<td>Moe</td>
+				        	<td>11:09:02<td>
+				      	</tr>
+				    </tbody>
+				</table>
+			 </div>
+		</div>
+	</div>	
+	<footer class="bottom">
+		<div class="dow">
+			<h5> Copyright &copy; By :) </h5>
+		
+		</div>
+	</footer>
+	<script>
+		function openCity(evt, cityName) {
+		  var i, x, tablinks;
+		  x = document.getElementsByClassName("city");
+		  for (i = 0; i < x.length; i++) {
+			  x[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("tablink");
+		  for (i = 0; i < x.length; i++) {
+			  tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " w3-red";
+		}
+	</script>
+</body>
+</html>
